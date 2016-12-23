@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:id="@+id/nainai_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/nainai"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/from_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From, Anh Dat!"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/linhchi_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Be Linh Chi!"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#E53935"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_above="@id/from_text_view"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/birthday_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday,"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#E53935"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_above="@id/linhchi_text_view"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/princess_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Princess is turning 5!"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:layout_above="@id/birthday_text_view"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
